@@ -1,4 +1,5 @@
-
+import Counter from "./components/counter/Counter";
+import CustomButton from "./components/customButton/CustomButton";
 import ItemListContainer from "./components/itemListContain/ItemListContainer";
 import Navbar from "./components/navBar/NavBar"
 
@@ -7,7 +8,13 @@ function App() {
   return (
     <div>
        <Navbar />
-       <ItemListContainer greeting={"Buenos dias"}/>
+
+       <Counter />
+
+       <ItemListContainer />
+
+
+     
     </div>
   );
 }
